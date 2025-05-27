@@ -1,0 +1,8 @@
+The file sixtesim_DeepField_example.sh contains an example of sh script to run a 100 ks AXIS Deep Field simulation.
+The simulation assume a dithering with Lissajous pattern (stored in attitude_lissajous_80arcsec_100ks.fits).
+The file "CDFS_cat_bkg_gilli_15row.fits" contains the soft diffuse background.
+The other files in Simput are the mocks used in this specific analysis: AGN mocks (based on the Gilli et al. 2007 AGN 
+population synthesis model at z<3; the Vito et al. high-redshift X-ray luminosity function at 3<z<6; the Ricarte
+semi-analytical model with heavy BH seed assumptions at z>6); galaxy mocks (based on the SPRITZ infrared mocks by 
+Bisigello et al. 2022, with prescriptions to convert stellar mass and SFR in X-ray fluxes of diffuse gas and X-ray
+binaries from Mineo et al. (2012) and Lehmer et al. (2019); clusters of galaxies mocks (from Marchesi et al. 2020).
