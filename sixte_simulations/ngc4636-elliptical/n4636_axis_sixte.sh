@@ -1,4 +1,6 @@
 #!/bin/sh
+# Example created by A. Ptak based on the AXIS simulation web page at https://axis.umd.edu/researchers/simulation-resources
+# The example currently on the website is a bit out of date based on current SIXTE syntax
 
 imgfile=ngc4636_img0.5to2keV.fits_.gz
 if test ! -f $imgfile; then
