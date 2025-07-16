@@ -1,19 +1,36 @@
-These are the examples simulations run by SIXTE for AXIS.
+# SIXTE Simulation Examples for AXIS
 
-All information to download and install SIXTE can be found in the SIXTE website (<https://www.sternwarte.uni-erlangen.de/sixte/installation/>). 
+A collection of simulation examples for the AXIS (Advanced X-ray Imaging Satellite) using the SIXTE (SImulation of X-ray TElescopes) framework.
 
-In order to run the simulations you will also need the AXIS instrument (XML) files (link - <https://www.sternwarte.uni-erlangen.de/sixte/instruments/>). 
+## Prerequisites
 
-In case of question or problems with the SIXTE simulations, you can contact  the SIXTE Support <sixte-support@lists.fau.de>.
+#### **SIXTE Software:**
+You can install and run SIXTE locally on Linux and MacOS, or use the software through the JHU SciServer
+environment (via the sixte_users group). For either case, see https://www.sternwarte.uni-erlangen.de/sixte/installation-steps/
 
-The folder `single_point_source`, `multiple_source`, `CDFS` and `etaCarinae_extended_source` contains scripts to run the simulation for a single point source, multiple point source, Chandra Deep Field South (CDFS) and etaCarinae extended source for AXIS respectively.
+#### **AXIS Instrument Files:** 
+The AXIS instrument files for SIXTE are available at https://www.sternwarte.uni-erlangen.de/sixte/instruments/. Move the files to your SIXTE installation directory and unpack them in the existing
+data tree.
 
-Each folder contains:
+---
 
-- a XCM file to generate simput files (except for CDFS, a combined simput file is provided),
- 
-- a setup.bash file (to provide the path for XML file of AXIS),
+## Simulation Examples
 
-- simulation scripts (indexed by number according to the sequence in which they need to run), 
+### [`1. Single point source`](./single_point_source/README.md)
 
-- and a master script (to run everything at once and obtain the final simulation event file and image).
+### [`2. Multiple sources`](./multiple_sources/README.md)
+
+### [`3. Chandra Deep Field South (CDFS)`](./CDFS/README.md)  
+
+### [`4. Extended source `](./etaCarinae_extended_source/README.md)
+
+### [`5. NGC 4636 Elliptical galaxy `](./ngc4636-elliptical/README.md)
+
+---
+For questions or problems with SIXTE simulations, please contact at our email id: **sixte-support@lists.fau.de**
+
+**Additional Resources**
+
+- [SIXTE Webpage](https://www.sternwarte.uni-erlangen.de/sixte/)
+
+- [AXIS Mission Webpage](https://axis.umd.edu/)
