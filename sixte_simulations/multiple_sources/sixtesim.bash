@@ -1,6 +1,7 @@
 #! /bin/bash
 
-. setup.bash
+xmldir=$SIXTE/share/sixte/instruments/axis
+xml=${xmldir}/axis_baseline_all_chips.xml
 
 sixtesim \
 XMLFile=${xml} \
